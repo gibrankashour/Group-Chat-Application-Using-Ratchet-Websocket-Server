@@ -1,0 +1,32 @@
+input:disabled {
+    cursor: not-allowed;
+}
+#image-profile img {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.fixed-alert {
+    max-width: 450px;
+    margin: 0;
+    right: 10px;
+    position: fixed;
+}
+
+.groups-list .group {
+    border-bottom: 1px solid #e0e0e0;
+}
+.groups-list .group:hover {
+    background-color: #eee;
+}
+.groups-list .group.active {
+    background-color: #eee;
+}
+.groups-list .group:last-of-type {
+    border-bottom: none;
+}
+.groups-list .group .new-message {
+    position: absolute;
+    right: 30px;
+}
