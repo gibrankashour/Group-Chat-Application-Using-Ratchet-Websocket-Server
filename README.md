@@ -16,4 +16,4 @@ It is a simple group chat application using Ratchet websocket server where user 
 
 - I use mailtrap to test emails so in ``` core/classes/SendEmail.php ``` file you must update username and password to your mailtrap sittings to send email verification code to your account 
 - To run ratchet websocket server run this command in your terminal```  php bin/chat-server.php ```
-
+- I used 123123 as a password for all users accounts, You can create new accounts with your desired passwords   
